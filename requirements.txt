@@ -1,0 +1,5 @@
+geopandas==0.14.3  # Usa las versiones que tengas instaladas
+numpy==1.26.4
+pandas==2.2.1     # geopandas depende de pandas
+shapely==2.0.3
+# Agrega cualquier otra dependencia que pip freeze muestre y sea necesaria
