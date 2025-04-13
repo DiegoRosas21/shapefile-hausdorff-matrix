@@ -7,7 +7,6 @@ import csv
 
 # Ruta del directorio donde se encuentran los shapefiles
 directory = 'C:\\haus'
-#'C:\Users\Zephyrus G15 2023\Downloads\hausdo\h2\haus
 
 # Ruta y nombre del archivo de salida
 output_file = 'C:\\haus\\dist_haus.csv'
