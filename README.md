@@ -57,7 +57,7 @@ Antes de ejecutar el script, **DEBES** modificar las siguientes variables direct
     python main.py
     ```
 6.  El script procesará los archivos y, si todo va bien, imprimirá un mensaje de confirmación:
-    `Los resultados se han guardado en el archivo 'dist_haus_2.csv'` (o el nombre que hayas configurado).
+    `Los resultados se han guardado en el archivo 'dist_haus.csv'` (o el nombre que hayas configurado).
 7.  Busca el archivo CSV de salida en el directorio desde donde ejecutaste el script.
 
 ## Descripción del Archivo de Salida (CSV)
