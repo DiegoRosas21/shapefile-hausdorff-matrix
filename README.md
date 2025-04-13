@@ -39,7 +39,7 @@ Antes de ejecutar el script, **DEBES** modificar las siguientes variables direct
 
 2.  **`output_file` (Nombre del archivo de salida):**
     *   **Qué es:** El nombre del archivo CSV que se generará.
-    *   **Comportamiento Actual:** El script define inicialmente una ruta completa para `output_file`, pero **luego la sobrescribe** cerca del final para que sea simplemente `'dist_haus_2.csv'`. Esto significa que el archivo CSV se guardará en el **mismo directorio desde donde ejecutes el script `python main.py`**, no necesariamente en la carpeta de los shapefiles.
+    *   **Comportamiento Actual:** El script define inicialmente una ruta completa para `output_file`, pero **luego la sobrescribe** cerca del final para que sea simplemente `'dist_haus.csv'`. Esto significa que el archivo CSV se guardará en el **mismo directorio desde donde ejecutes el script `python main.py`**, no necesariamente en la carpeta de los shapefiles.
     *   **Acción (Opcional):** Si deseas un nombre de archivo diferente o guardarlo en una ubicación específica, modifica la línea *cerca del final del script*:
         ```python
         # Cambia 'dist_haus.csv' por la ruta y nombre deseados
